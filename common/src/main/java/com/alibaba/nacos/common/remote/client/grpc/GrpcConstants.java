@@ -76,6 +76,12 @@ public class GrpcConstants {
     @GRpcConfigLabel
     public static final String GRPC_CHANNEL_KEEP_ALIVE_TIME = NACOS_CLIENT_GRPC + ".channel.keep.alive";
     
+    @GRpcConfigLabel
+    public static final String GRPC_CHANNEL_KEEP_ALIVE_TIMEOUT = NACOS_CLIENT_GRPC + ".channel.keep.alive.timeout";
+
+    @GRpcConfigLabel
+    public static final String GRPC_CHANNEL_CAPABILITY_NEGOTIATION_TIMEOUT = NACOS_CLIENT_GRPC + ".channel.capability.negotiation.timeout";
+
     private static final Set<String> CONFIG_NAMES = new HashSet<>();
     
     @Documented
